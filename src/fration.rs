@@ -1,4 +1,4 @@
-mod fration {
+
     use std::ops::Mul;
     use std::ops::Div;
     use std::ops::Add;
@@ -8,7 +8,7 @@ mod fration {
 
 
     #[derive(Debug, PartialEq)]
-    struct Fration {
+    pub struct Fration {
         nominateur: i64,
         denominateur: i64,
 
@@ -121,4 +121,3 @@ mod fration {
         }
 
     }
-}
