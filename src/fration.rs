@@ -4,7 +4,6 @@
     use std::ops::Add;
     use std::ops::Sub;
 
-    use std::cmp::PartialEq;
 
 
     #[derive(Debug, PartialEq)]
@@ -36,8 +35,19 @@
         new.simplifer();
         return new
         }
+    }
+    
+    impl Clone for Fration {
+        fn clone(&self) -> Fration {
+            Fration {
+                nominateur: self.nominateur,
+                denominateur: self.denominateur,
+            }
+        }
+    }
 
 
+    impl Fration {
         fn simplifer(&mut self) {
             let list_diviseur_nominateur = diviseur(self.nominateur);
             let list_diviseur_denominateur = diviseur(self.denominateur);
