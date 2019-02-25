@@ -1,14 +1,11 @@
-mod fration {
+pub mod fration {
     use std::ops::Mul;
     use std::ops::Div;
     use std::ops::Add;
     use std::ops::Sub;
 
-    use std::cmp::PartialEq;
-
-
     #[derive(Debug, PartialEq)]
-    struct Fration {
+    pub struct Fration {
         nominateur: i64,
         denominateur: i64,
 
@@ -28,7 +25,7 @@ mod fration {
     }
 
     impl Fration {
-        fn new(n: i64, d: i64) -> Fration {
+        pub fn new(n: i64, d: i64) -> Fration {
         let mut new = Fration {
             nominateur: n,
             denominateur: d, 
@@ -38,7 +35,7 @@ mod fration {
         }
 
 
-        fn simplifer(&mut self) {
+        pub fn simplifer(&mut self) {
             let list_diviseur_nominateur = diviseur(self.nominateur);
             let list_diviseur_denominateur = diviseur(self.denominateur);
 
@@ -59,6 +56,15 @@ mod fration {
             // divise le nominateur et le denominateur par le plus grand diviseur comun
             self.nominateur /= plus_grand_diviseur_comun;
             self.denominateur /= plus_grand_diviseur_comun; 
+        }
+    }
+
+    impl Clone for Fration {
+        fn clone(&self) -> Fration {
+            Fration {
+                nominateur: self.nominateur.clone(),
+                denominateur: self.denominateur.clone(),
+            }
         }
     }
 
