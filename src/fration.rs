@@ -1,4 +1,4 @@
-pub mod fration {
+
     use std::ops::Mul;
     use std::ops::Div;
     use std::ops::Add;
@@ -127,4 +127,3 @@ pub mod fration {
         }
 
     }
-}

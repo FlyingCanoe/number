@@ -1,9 +1,9 @@
-mod eqution::eqution;
+mod eqution;
+mod fration;
 
-use fration::fration::Fration;
 
 fn main() {
-    let a = Fration::new(1, 2);
-    let b = Fration::new(1, 4);
+    let a = fration::Fration::new(1, 2);
+    let b = fration::Fration::new(1, 4);
     println!("{:?}", a*b);
 }

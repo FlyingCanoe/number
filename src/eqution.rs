@@ -1,4 +1,4 @@
-mod super::fration;
+use super::fration::Fration;
 struct Var {
     var: char,
     expoxen: i128,
