@@ -1,5 +1,5 @@
-mod fration;
-mod eqution;
+mod eqution::eqution;
+
 use fration::fration::Fration;
 
 fn main() {
