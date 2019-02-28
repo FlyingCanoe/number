@@ -1,18 +1,19 @@
 use super::fration::Fration;
 
 
-#[derive(PartialEq)]
+#[derive(PartialEq, Debug)]
 struct StructVar {
     lettre: char,
     expoxen: i128,
 }
 
-#[derive(PartialEq)]
+#[derive(PartialEq, Debug)]
 enum Var {
     Var_presente(StructVar),
     Var_absente,
 }
 
+#[derive(Debug)]
 struct Monombre {
     qutian: Fration,
     var: Var
@@ -29,7 +30,7 @@ impl Monombre {
     }
 }
 
-enum ElementAlgerbryque {
+pub enum ElementAlgerbryque {
     Enum_Monombre(Monombre),
     OuvertureDeParentaise, 
     FemeturDeParentaise,
@@ -39,13 +40,19 @@ enum ElementAlgerbryque {
     Soutration
 }
 
-struct Eqution {
+pub struct Eqution {
     list_d_element: Vec<ElementAlgerbryque>
 }
 
 impl Eqution {
+    pub fn new(list_element: Vec<ElementAlgerbryque>) -> Eqution {
+        Eqution {
+            list_d_element: list_element
+        }
+    }
+
     // trie les element algerbryque
-    fn simplifer_etap1(&mut self) {
+    pub fn simplifer_etap1(&self) -> Vec<Vec<Monombre>>   {
         // une liste de groupe de monombre compatible
         let mut liste_groupe_de_monombre :Vec<Vec<Monombre>> = vec![];
 
@@ -61,10 +68,17 @@ impl Eqution {
                     _ => panic!("bug: les eqution devrait toujoure comencer avec un monombre")
                 };
 
+                let monombre_de_element = match element {
+                    ElementAlgerbryque::Enum_Monombre(monombroe) => monombroe,
+                    _ => panic!("")
+                };
+
                 if *representant ==   var_de_element {
+                    groupe.push(monombre_de_element.clone())
                 }
             }
         }
+    liste_groupe_de_monombre
     }
 }
 
