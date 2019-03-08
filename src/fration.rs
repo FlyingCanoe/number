@@ -6,9 +6,18 @@
 
     #[derive(Debug, PartialEq)]
     pub struct Fration {
-        nominateur: i64,
-        denominateur: i64,
+        pub nominateur: i64,
+        pub denominateur: i64,
 
+    }
+
+    pub fn new(n: i64, d: i64) -> Fration {
+        let mut new = Fration {
+             nominateur: n,
+            denominateur: d,
+        };
+        new.simplifer();
+        return new
     }
 
     fn diviseur(number: i64) -> Vec<i64> {
@@ -25,14 +34,6 @@
     }
 
     impl Fration {
-        pub fn new(n: i64, d: i64) -> Fration {
-        let mut new = Fration {
-            nominateur: n,
-            denominateur: d, 
-        };
-        new.simplifer();
-        return new
-        }
 
 
         pub fn simplifer(&mut self) {
@@ -126,4 +127,15 @@
 
         }
 
+    }
+
+    impl std::fmt::Display for Fration {
+        fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
+            if self.denominateur == 1 {
+                write!(f, "{}", self.nominateur)
+            }
+            else {
+            write!(f, "{}/{}", self.nominateur, self.denominateur)
+            }
+        }
     }

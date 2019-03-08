@@ -1,57 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/eqution.rs" description="impl Clone for Var {&#10;    fn clone(&amp;self) -&gt; Var {&#10;..." line="5" />
+    <bookmark url="file://$PROJECT_DIR$/src/eqution.rs" description="impl Clone for Var {&#10;    fn clone(&amp;self) -&gt; Var {&#10;..." line="7" />
+    <bookmark url="file://$PROJECT_DIR$/src/main.rs" line="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10a383ca-86c1-436f-ab75-c1400c0e07fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eqution.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/eqution.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/number-0c8f8e21685134f0/bin-number-0c8f8e21685134f0" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/number-0c8f8e21685134f0/bin-number-0c8f8e21685134f0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/number-0c8f8e21685134f0/bin-number-0c8f8e21685134f0.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/number-0c8f8e21685134f0/bin-number-0c8f8e21685134f0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/deps/number-0c8f8e21685134f0.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/number-0c8f8e21685134f0.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/deps/number-0c8f8e21685134f0.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/number-0c8f8e21685134f0.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/115s1udmpoimz6fx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/117a1stiymt19k30.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/1740eezura43yfiv.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/1bjdspwzafn5fbz9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/1fn32ezo0qkcsgos.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/1omo9rxp0bjetkzr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/1zx41r4gv32feq3q.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/2410g69xl353ifnb.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/2fy1bb7o8ohltv58.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/2nvtk0o3vk0xy3no.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/2o667j0d8bunsxez.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/2pny89k02qvnynsm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/30yzw5qt56k4utdj.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/3ccgbawcrg295a0h.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/3fdj2xu5t1577de0.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/3jp5q1j5h2w3x4o1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/3yakw742ga162u7j.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/4a8ysfg5wjpd59qd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/4e7kuz9utzwt5ujz.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/4kit7aucbchre2s5.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/4rvx6pto28ixbw4j.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/4st5c1ba75miyba9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/4w1ygs77fvp48ov3.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/523jhdjrieenr1d1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/55o8eibdqfb9kt4b.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/55z1qqelvu5rv0fe.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/583vvpdxe1t4y63g.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/7o02i23tjnqosna.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/fjq8i8f9820kp5o.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/jw3re9mm73p9iwv.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/nbcbcci1763yfd1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/oiejeape4hvpbog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/s5jlhhc24grk49p.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/tnmflev6zbkpoy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/uxaedus9dcmbyt8.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk-2wnx0v7fsqc83/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-a5p5ddplm0tz/s-f9uug57fen-r1vauk.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/number.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/number.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/number.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/number.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fration.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/fration.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/number-d51be6c5e25d8100/bin-number-d51be6c5e25d8100" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/number-d51be6c5e25d8100/bin-number-d51be6c5e25d8100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/number-d51be6c5e25d8100/bin-number-d51be6c5e25d8100.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/number-d51be6c5e25d8100/bin-number-d51be6c5e25d8100.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/number-d51be6c5e25d8100" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/number-d51be6c5e25d8100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/13ecv9l85dz48v9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/14probl0lkf34j32.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/19o3dqnk08zfatff.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/1ft8shxbmxo7s33c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/1g0m7xtb0e8b2rkk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/1hcg8wnrawl2z5y3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/1j7lajbqk4nr19u0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/1olovc0kca0xpbzq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/1oo8fk1ro003jr6t.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/1qxlk6lewy6eq463.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/1voxs2xhzg2wyp6k.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/27nxtce6gtczz4ll.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/2lnqdm4f9fvpxdvn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/2on0407xv4hyxpgi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/2p0klubi6b8z34dr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/2sv51pp5g8bgplv2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/2wcx1q1nfhqjwlqh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/2wx5rw8h98f5o1l1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/3522csyzquekucik.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/3zivgvnw4mk5gc98.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/41ll34n0fswivrku.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/4d0k98m8yaprpj3r.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/4dq3clwses6okxd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/4fjk03m6gqchpg9i.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/4j6zvf1tn3k0o099.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/4khiesi4asqmf1q3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/4uywwlg9eldhzhtt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/4xwwoyaqmnlrv0yo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/4ytzjuf9sczldw52.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/52hh9qupqaipogd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/58lmansmhp5bgtel.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/5te8wq8xxc9p92t.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/c2q23ertsun7dou.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/lnjcwmb3289268y.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/slo55ew9sfi15v1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii-nh2pvcj6u47j/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/number-2fh6n3pr0fo43/s-f9tvmbgn5p-cqe4ii.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/number" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/number" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/number.d" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/number.d" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,22 +62,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main.rs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="270">
+                    <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eqution.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -82,15 +95,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fration.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="2085">
+              <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cargo.toml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -108,19 +116,38 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="12" />
-    <option name="y" value="-14" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="x" value="197" />
+    <option name="y" value="270" />
+    <option name="width" value="1376" />
+    <option name="height" value="786" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="number" type="b2602c69:ProjectViewProjectNode" />
+              <item name="number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="number" type="b2602c69:ProjectViewProjectNode" />
+              <item name="number" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551284993854" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552059993647" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -167,11 +194,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="-1" width="1600" height="858" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25189108" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24967825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -180,14 +216,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29392448" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29291552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32833788" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32970026" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -204,34 +240,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust/src/libcore/clone.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="120" column="7" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust/src/libcore/clone.rs" />
     <entry file="file://$PROJECT_DIR$/Cargo.toml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.rs">
+    <entry file="file://$PROJECT_DIR$/src/fration.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="2085">
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fration.rs">
+    <entry file="file://$PROJECT_DIR$/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="270">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eqution.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
         </state>
       </provider>
     </entry>
