@@ -34,19 +34,16 @@
     }
 
     impl Fration {
-
-
         pub fn simplifer(&mut self) {
             let list_diviseur_nominateur = diviseur(self.nominateur);
             let list_diviseur_denominateur = diviseur(self.denominateur);
 
             let mut plus_grand_diviseur_comun = 1; //asume 1 jusque qu'a temp que plus grand diviseur comun soit trouver 
-                
+
             for diviseur_de_nominateur in list_diviseur_nominateur.iter() {
-                    
+
                 //regarde si le diviseur est ausi présent dans la liste de diviseur de denominateur
                 for diviseur_de_denominateur in list_diviseur_denominateur.iter().rev() {
-                        
                     if diviseur_de_nominateur == diviseur_de_denominateur {
                         plus_grand_diviseur_comun = *diviseur_de_nominateur; //un diviseur comun plus grand a été trouver, 
                         break                                               //d'autre pouron étre trouver dans les iteration future de la boucle
@@ -56,9 +53,20 @@
 
             // divise le nominateur et le denominateur par le plus grand diviseur comun
             self.nominateur /= plus_grand_diviseur_comun;
-            self.denominateur /= plus_grand_diviseur_comun; 
+            self.denominateur /= plus_grand_diviseur_comun;
+        }
+
+        pub fn pusence(&self, expoxent: u32) -> Fration {
+            let mut pusence = Fration {
+                nominateur: self.nominateur.pow(expoxent),
+                denominateur: self.denominateur.pow(expoxent)
+            };
+
+            pusence.simplifer();
+            return pusence
         }
     }
+
 
     impl Clone for Fration {
         fn clone(&self) -> Fration {
