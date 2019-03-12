@@ -1,6 +1,6 @@
 use super::fration::Fration;
 
-mod simplification;
+pub mod simplification;
 
 #[derive(Debug)]
 pub struct Monombre {

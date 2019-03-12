@@ -1,5 +1,5 @@
 use crate::eqution::{ElementAlgebrique, Monombre, Equation};
-
+use crate::eqution::simplification;
 mod eqution;
 mod fration;
 
@@ -20,6 +20,6 @@ fn main() {
     ];
     let mut b = Equation::new(a);
     println!("{}", b);
-    b.;
+    simplification::run(&mut b);
     println!("{}", b);
 }
