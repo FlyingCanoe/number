@@ -27,13 +27,18 @@
     }
 
     impl Fration {
-        fn new(n: i64, d: i64) -> Fration {
+        pub fn new(n: i64, d: i64) -> Fration {
         let mut new = Fration {
             nominateur: n,
             denominateur: d, 
         };
         new.simplifer();
         return new
+        }
+
+        pub fn negate(&mut self) {
+            let (new_value, _) = self.nominateur.overflowing_neg();
+            self.nominateur = new_value
         }
     }
     
@@ -130,4 +135,15 @@
 
         }
 
+    }
+
+    impl std::fmt::Display for Fration {
+        fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
+            if self.denominateur == 1 {
+                write!(f, "{}", self.nominateur)
+            }
+            else {
+                write!(f, "{}/{}", self.nominateur, self.denominateur)
+            }
+        }
     }
