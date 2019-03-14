@@ -5,8 +5,7 @@
     use std::ops::Sub;
 
 
-
-    #[derive(Debug, PartialEq)]
+    #[derive(Debug, PartialEq, Copy)]
     pub struct Fration {
         nominateur: i64,
         denominateur: i64,
@@ -74,6 +73,18 @@
             // divise le nominateur et le denominateur par le plus grand diviseur comun
             self.nominateur /= plus_grand_diviseur_comun;
             self.denominateur /= plus_grand_diviseur_comun; 
+        }
+
+        pub fn is_nul(&self) -> bool {
+            return self.nominateur == 0
+        }
+
+        pub fn is_one(&self) -> bool {
+            if self.nominateur == 1 {
+                return self.denominateur == 1
+            }
+            else { return false }
+
         }
     }
 
@@ -143,7 +154,7 @@
                 write!(f, "{}", self.nominateur)
             }
             else {
-                write!(f, "{}/{}", self.nominateur, self.denominateur)
+                write!(f, "({}/{})", self.nominateur, self.denominateur)
             }
         }
     }
