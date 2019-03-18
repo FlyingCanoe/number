@@ -75,15 +75,18 @@
             self.denominateur /= plus_grand_diviseur_comun; 
         }
 
-        pub fn is_nul(&self) -> bool {
-            return self.nominateur == 0
+        pub fn is_not_nul(&self) -> bool {
+            return self.nominateur != 0
         }
 
-        pub fn is_one(&self) -> bool {
+        pub fn is_not_one(&self) -> bool {
             if self.nominateur == 1 {
-                return self.denominateur == 1
+                if self.denominateur == 1 {
+                    return false
+                }
+                else { return true}
             }
-            else { return false }
+            else { return true }
 
         }
     }
@@ -109,7 +112,7 @@
         fn div(self, other: Fration) -> Fration  {
             let mut quotient = Fration {
                 nominateur: self.nominateur * other.denominateur as i64,
-                denominateur: self.denominateur * other.denominateur,
+                denominateur: self.denominateur * other.nominateur,
             };
             quotient.simplifer();
             return quotient
