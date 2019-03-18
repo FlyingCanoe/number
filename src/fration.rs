@@ -7,22 +7,30 @@
 
     #[derive(Debug, PartialEq, Copy)]
     pub struct Fration {
-        nominateur: i64,
-        denominateur: i64,
+        pub nominateur: i64,
+        pub denominateur: i64,
 
     }
 
     fn diviseur(number: i64) -> Vec<i64> {
         let mut vec: Vec<i64> = vec!();
 
-        for i in 2..number {
-            let a = number as f64/i as f64;
+        let mut number_final;
+        if number.is_negative() == true {
+            number_final = number.checked_neg().unwrap();
+        }
+        else {
+            number_final = number;
+        }
+
+        for i in 1..number_final {
+            let a = number as f64 / i as f64;
 
             if a.trunc() == a {
-                vec.push(a as i64)
+                vec.push(a.abs() as i64)
             }
         }
-    vec
+        vec
     }
 
     impl Fration {
@@ -52,7 +60,7 @@
 
 
     impl Fration {
-        fn simplifer(&mut self) {
+        pub fn simplifer(&mut self) {
             let list_diviseur_nominateur = diviseur(self.nominateur);
             let list_diviseur_denominateur = diviseur(self.denominateur);
 
@@ -71,8 +79,8 @@
             }
 
             // divise le nominateur et le denominateur par le plus grand diviseur comun
-            self.nominateur /= plus_grand_diviseur_comun;
-            self.denominateur /= plus_grand_diviseur_comun; 
+            self.nominateur   = self.nominateur/plus_grand_diviseur_comun;
+            self.denominateur = self.denominateur/ plus_grand_diviseur_comun;
         }
 
         pub fn is_not_nul(&self) -> bool {
@@ -132,6 +140,12 @@
             somme.simplifer();
             return somme
         }
+    }
+
+    impl Add<Fration> for i64 {
+        type Output = i64;
+
+        fn add(self, other: Fration)
     }
 
     impl Sub<Fration> for Fration {
