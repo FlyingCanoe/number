@@ -14,8 +14,8 @@ fn main() {
 
 
 pub mod eqution_de_second_degre {
-    use crate::fration::Fration;
-    pub fn solve(a: Fration, b: Fration, c: Fration) {
+    use num_rational::Rational;
+    pub fn solve(a: Rational, b: Rational, c: Rational) {
         println!("{}x^2+{}x+{} = y", a, b, c);
         println!("mn  = ac");
         println!("m+n = b");
@@ -23,8 +23,8 @@ pub mod eqution_de_second_degre {
         println!("mn  = {}", mn);
         println!("m+n = {}", b);
 
-        let v :Vec<(i64, i64)> = vec![];
-        for i in 1..b.nominateur/b.denominateur {
+        let v :Vec<(isize, isize)> = vec![];
+        for i in 1..b as isize {
             println!("{} {}", i, 10-i)
         }
     }
