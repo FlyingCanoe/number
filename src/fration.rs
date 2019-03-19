@@ -142,11 +142,11 @@
         }
     }
 
-    impl Add<Fration> for i64 {
+    /*impl Add<Fration> for i64 {
         type Output = i64;
 
         fn add(self, other: Fration)
-    }
+    }*/
 
     impl Sub<Fration> for Fration {
         type Output = Fration;

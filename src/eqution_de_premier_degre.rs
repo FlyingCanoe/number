@@ -1,11 +1,11 @@
 use super::fration::Fration;
-
+use num_rational::Rational;
 // ax+b
 pub struct  EqutionPremierDegre {
 }
 
 
-pub fn solve_x(a: Fration, b: Fration, mut y: Fration) {
+pub fn solve_x(a: Rational, b: Rational, mut y: Rational) {
 
     //------//
     //etap 1//
@@ -14,13 +14,13 @@ pub fn solve_x(a: Fration, b: Fration, mut y: Fration) {
 
 
     //a est fait seulment partie de l'éqution, si il n'est pas égal a 1
-    if a.is_not_one() {
+    if is_not_one(a) {
         print!("a");
     }
     print!("x");
 
     // b fait seulment partie de l'éqution si il n'est pas égale a zero
-    if b.is_not_nul() {
+    if is_not_nul(b) {
         print!("+b");
     }
     println!(" = y");
@@ -31,13 +31,13 @@ pub fn solve_x(a: Fration, b: Fration, mut y: Fration) {
     //on renplace les variable et les inconue par leur valeur
 
     //si a n'est pas égale 1 <=> on afiche a
-    if a.is_not_one() {
+    if is_not_one(a) {
         print!("{}", a)
     }
 
     print!("x");
 
-    if b.is_not_nul() {
+    if is_not_nul(b) {
         print!("+{}", b)
     }
 
@@ -50,10 +50,10 @@ pub fn solve_x(a: Fration, b: Fration, mut y: Fration) {
 
 
     // si b est nul il n'y a rien a munipuler a cette étap.
-    if b.is_not_nul() {
+    if is_not_nul(b) {
 
         //si a n'est pas égale 1 <=> on afiche a
-        if a.is_not_one() {
+        if is_not_one(a) {
             print!("{}", a)
         }
 
@@ -62,7 +62,7 @@ pub fn solve_x(a: Fration, b: Fration, mut y: Fration) {
         y = y - b;
         drop(b);
 
-        if a.is_not_one() {
+        if is_not_one(a) {
             print!("{}", a)
         }
         println!("x = {}", y)
@@ -71,7 +71,7 @@ pub fn solve_x(a: Fration, b: Fration, mut y: Fration) {
     //------//
     //etap 4//
     //------//
-    if a.is_not_one() {
+    if is_not_one(a) {
         println!("x = {}", y);
         println!("    -------");
         println!("       {}", a);
@@ -90,4 +90,12 @@ pub fn solve_y(a: Fration, mut x: Fration, b: Fration) {
     println!("{}+{} = y", x, b);
     x = x + b;
     println!("{} = y", x)
+}
+
+fn is_not_one(num: Rational) -> bool {
+    return num !=  Rational::new(1, 1)
+}
+
+fn is_not_nul(num: Rational) -> bool {
+    return num != Rational::new(0, 1)
 }

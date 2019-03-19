@@ -1,13 +1,15 @@
 use crate::fration::Fration;
+extern crate num_rational;
+use num_rational::Rational;
+
 mod fration;
 mod eqution_de_premier_degre;
 
 fn main() {
-    let a = Fration::new(2, 1);
-    let b = Fration::new(10, 1);
-    let c = Fration::new(2, 1);
-
-    eqution_de_second_degre::solve(a, b, c);
+    let a = Rational::new(2, 1);
+    let b = Rational::new(10, 1);
+    let y = Rational::new(2, 1);
+    eqution_de_premier_degre::solve_x(a, b, y)
 }
 
 
