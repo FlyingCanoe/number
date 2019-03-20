@@ -1,31 +1,35 @@
-use crate::fration::Fration;
 extern crate num_rational;
+extern crate crossterm;
 use num_rational::Rational;
+use crossterm::input;
+use term::Terminal;
+use std::iter::Skip;
 
 mod fration;
 mod eqution_de_premier_degre;
+mod eqution_de_second_degre;
 
 fn main() {
-    let a = Rational::new(2, 1);
-    let b = Rational::new(10, 1);
-    let y = Rational::new(2, 1);
-    eqution_de_premier_degre::solve_x(a, b, y)
-}
+    let terminal = input();
+    println!("entrer 1 pour resoud une eqution de premier degré");
+    println!("entrer 2 pour resoud une eqution de second degré");
+    println!("entrer 3 pour qutier le program");
 
-
-pub mod eqution_de_second_degre {
-    use num_rational::Rational;
-    pub fn solve(a: Rational, b: Rational, c: Rational) {
-        println!("{}x^2+{}x+{} = y", a, b, c);
-        println!("mn  = ac");
-        println!("m+n = b");
-        let mn = a*c;
-        println!("mn  = {}", mn);
-        println!("m+n = {}", b);
-
-        let v :Vec<(isize, isize)> = vec![];
-        for i in 1..b as isize {
-            println!("{} {}", i, 10-i)
-        }
+    loop {
+        input.read
     }
 }
+
+fn read_input_root(terminal: TerminalInput) {
+    loop {
+        let input = terminal.read_line();
+        let str_input = match  {
+            Ok(str) => str,
+            Err(t) => {
+                println!("il y a une erreur");
+                Skip
+            }
+        };
+    }
+}
+

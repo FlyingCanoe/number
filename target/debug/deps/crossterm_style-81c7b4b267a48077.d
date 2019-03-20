@@ -1,0 +1,10 @@
+C:\Users\FlyingCanoe\Documents\code\rust\number\target\debug\deps\crossterm_style-81c7b4b267a48077.rmeta: C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\lib.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\color.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\objectstyle.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\styledobject.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\ansi_color.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\winapi_color.rs
+
+C:\Users\FlyingCanoe\Documents\code\rust\number\target\debug\deps\crossterm_style-81c7b4b267a48077.d: C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\lib.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\color.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\objectstyle.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\styledobject.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\ansi_color.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\winapi_color.rs
+
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\lib.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\color.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\objectstyle.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\styledobject.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\ansi_color.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_style-0.1.0\src\winapi_color.rs:
