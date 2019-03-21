@@ -1,4 +1,4 @@
-
+/*
     use std::ops::Mul;
     use std::ops::Div;
     use std::ops::Add;
@@ -15,7 +15,7 @@
     fn diviseur(number: i64) -> Vec<i64> {
         let mut vec: Vec<i64> = vec!();
 
-        let mut number_final;
+        let number_final;
         if number.is_negative() == true {
             number_final = number.checked_neg().unwrap();
         }
@@ -174,4 +174,4 @@
                 write!(f, "({}/{})", self.nominateur, self.denominateur)
             }
         }
-    }
+    }*/

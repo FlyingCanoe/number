@@ -1,11 +1,7 @@
-use super::fration::Fration;
-use num_rational::Rational;
-// ax+b
-pub struct  EqutionPremierDegre {
-}
 
 
-pub fn solve_x(a: Rational, b: Rational, mut y: Rational) {
+
+pub fn solve_x(a: f64, b: f64, mut y: f64) {
 
     //------//
     //etap 1//
@@ -83,19 +79,17 @@ pub fn solve_x(a: Rational, b: Rational, mut y: Rational) {
 }
 
 
-pub fn solve_y(a: Fration, mut x: Fration, b: Fration) {
+/*pub fn solve_y(a: f64, mut x: f64, b: f64) {
     println!("ax+b = y");
     println!("{}*{}+{} = y", a, x, b);
     x = x * a;
     println!("{}+{} = y", x, b);
     x = x + b;
     println!("{} = y", x)
-}
+}*/
 
-fn is_not_one(num: Rational) -> bool {
-    return num !=  Rational::new(1, 1)
-}
+fn is_not_one(num: f64) -> bool { return num !=  1.0 }
 
-fn is_not_nul(num: Rational) -> bool {
-    return num != Rational::new(0, 1)
+fn is_not_nul(num: f64) -> bool {
+    return num != 0.0
 }

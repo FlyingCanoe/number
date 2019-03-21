@@ -1,4 +1,4 @@
-use num_rational::Rational;
+
 
 pub fn solve(a: isize, b: isize, c: isize) {
     println!("{}x^2+{}x+{} = y", a, b, c);
@@ -101,7 +101,7 @@ pub fn diviseur_comune(a: isize, b: isize) -> isize {
 
 fn diviseur_c(num: isize) -> Vec<isize> {
     let mut vec: Vec<isize> = vec!();
-    let mut number_final;
+    let number_final;
     if num.is_negative() == true {
         number_final = num.checked_neg().unwrap();
     }
