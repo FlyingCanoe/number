@@ -1,0 +1,10 @@
+C:\Users\FlyingCanoe\Documents\code\rust\number\target\release\deps\libnum_bigint-9054d42c25afe2cd.rlib: C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\lib.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\macros.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\bigint.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\biguint.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\algorithms.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\monty.rs
+
+C:\Users\FlyingCanoe\Documents\code\rust\number\target\release\deps\num_bigint-9054d42c25afe2cd.d: C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\lib.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\macros.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\bigint.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\biguint.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\algorithms.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\monty.rs
+
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\lib.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\macros.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\bigint.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\biguint.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\algorithms.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\num-bigint-0.2.2\src\monty.rs:

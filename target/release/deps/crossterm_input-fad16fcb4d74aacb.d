@@ -1,0 +1,9 @@
+C:\Users\FlyingCanoe\Documents\code\rust\number\target\release\deps\libcrossterm_input-fad16fcb4d74aacb.rlib: C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\lib.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\input\mod.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\input\input.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\input\windows_input.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\sys\mod.rs
+
+C:\Users\FlyingCanoe\Documents\code\rust\number\target\release\deps\crossterm_input-fad16fcb4d74aacb.d: C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\lib.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\input\mod.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\input\input.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\input\windows_input.rs C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\sys\mod.rs
+
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\lib.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\input\mod.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\input\input.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\input\windows_input.rs:
+C:\Users\FlyingCanoe\.cargo\registry\src\github.com-1ecc6299db9ec823\crossterm_input-0.1.0\src\sys\mod.rs:

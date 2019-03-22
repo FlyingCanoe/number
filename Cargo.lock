@@ -1,12 +1,12 @@
 [[package]]
 name = "crossterm"
-version = "0.6.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "crossterm_cursor 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "crossterm_input 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "crossterm_screen 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "crossterm_style 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "crossterm_style 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "crossterm_terminal 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "crossterm_utils 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -44,7 +44,7 @@ dependencies = [
 
 [[package]]
 name = "crossterm_style"
-version = "0.1.0"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "crossterm_utils 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -88,43 +88,11 @@ version = "0.2.50"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "num-bigint"
-version = "0.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-dependencies = [
- "num-integer 0.1.39 (registry+https://github.com/rust-lang/crates.io-index)",
- "num-traits 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "num-integer"
-version = "0.1.39"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-dependencies = [
- "num-traits 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "num-rational"
-version = "0.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-dependencies = [
- "num-bigint 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "num-integer 0.1.39 (registry+https://github.com/rust-lang/crates.io-index)",
- "num-traits 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "num-traits"
-version = "0.2.6"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-
-[[package]]
 name = "number"
 version = "0.1.0"
 dependencies = [
- "crossterm 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "num-rational 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "crossterm 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "crossterm_style 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -155,19 +123,15 @@ version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [metadata]
-"checksum crossterm 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)" = "91f04a703cb52c7ea4f800cda4e6839fb61c33955703dea2a8252d81d87178b3"
+"checksum crossterm 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "6020656dde7102690aaf0e33924e454280d7a5583573c5c31592d8ce2857756f"
 "checksum crossterm_cursor 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "e91c25e521708bd85fbdbdc34a854d1582793ab36e9aff2cee58fc79d7728e82"
 "checksum crossterm_input 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "937c314942c75a7893303e3fa1857cfbafdd8a7d8ee369389c79b55cc268c7a7"
 "checksum crossterm_screen 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "48eb1d3e7c5fea9b5a15c8667cb18b8c8fdfb28e38cd8faa048b9b7490cd9f69"
-"checksum crossterm_style 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "a2e4b4a13093fd9c0c16167b14a69ceb8166e079ccda904d41bbfc8ba2714b1b"
+"checksum crossterm_style 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "00356047d50f19467f14caaaa4cde2112fc875e9cbe9e642a2ff34ca73ff30ed"
 "checksum crossterm_terminal 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "f1b61af4ef3ed3624994e8af7ac87b6a483c2936e63eebe38d9a2810cd4a6d44"
 "checksum crossterm_utils 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "d26f24386ea91f9c55a85531dd3ee3673e4c82729e64567928665aca3a47c741"
 "checksum crossterm_winapi 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "f63b02344710452064687251b49cb0c275df10ea70dcd6038b1eec11665efc0a"
 "checksum libc 0.2.50 (registry+https://github.com/rust-lang/crates.io-index)" = "aab692d7759f5cd8c859e169db98ae5b52c924add2af5fbbca11d12fefb567c1"
-"checksum num-bigint 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "57450397855d951f1a41305e54851b1a7b8f5d2e349543a02a2effe25459f718"
-"checksum num-integer 0.1.39 (registry+https://github.com/rust-lang/crates.io-index)" = "e83d528d2677f0518c570baf2b7abdcf0cd2d248860b68507bdcb3e91d4c0cea"
-"checksum num-rational 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "4e96f040177bb3da242b5b1ecf3f54b5d5af3efbbfb18608977a5d2767b22f10"
-"checksum num-traits 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)" = "0b3a5d7cc97d6d30d8b9bc8fa19bf45349ffe46241e8816f50f62f6d6aaabee1"
 "checksum termios 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" = "72b620c5ea021d75a735c943269bb07d30c9b77d6ac6b236bc8b5c496ef05625"
 "checksum winapi 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)" = "92c1eb33641e276cfa214a0522acad57be5c56b10cb348b3c5117db75f3ac4b0"
 "checksum winapi-i686-pc-windows-gnu 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6"

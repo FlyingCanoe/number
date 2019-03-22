@@ -63,8 +63,8 @@ pub fn solve(a: isize, b: isize, c: isize) {
     let x2 = n/y2;
     let m1 = m/y1;
     let m2 = c/y2;
-    println!("{}x({}x+{})+{}({}x+ {})", y1, x1, m1, y2, x2, m2 );
-    println!("({}x+{})({}+{})", y1, y2, x1, m1);
+    println!("{}x({}x+{})+{}({}x+ {}) = 0", y1, x1, m1, y2, x2, m2 );
+    println!("({}x+{})({}x+{}) = 0", y1, y2, x1, m1);
 }
 
 

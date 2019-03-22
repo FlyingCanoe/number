@@ -1,13 +1,13 @@
+use crossterm::{input, terminal, TerminalInput, ClearType, Terminal};
 
-
-
-pub fn solve_x(a: f64, b: f64, mut y: f64) {
+pub fn solve_x(a: f64, b: f64, mut y: f64, terminal_cosmitque: &Terminal, terminal_input: &TerminalInput) {
 
     //------//
     //etap 1//
     //------//
     // on affiche l'éqution initale
-
+    terminal_cosmitque.clear(ClearType::All);
+    terminal_cosmitque .set_size(60, 50);
 
     //a est fait seulment partie de l'éqution, si il n'est pas égal a 1
     if is_not_one(a) {
@@ -20,7 +20,7 @@ pub fn solve_x(a: f64, b: f64, mut y: f64) {
         print!("+b");
     }
     println!(" = y");
-
+    terminal_input.read_line();
     //------//
     //etap 2//
     //------//
@@ -38,6 +38,7 @@ pub fn solve_x(a: f64, b: f64, mut y: f64) {
     }
 
     println!(" = {}", y);
+    terminal_input.read_line();
 
     //------//
     //etap 3//
@@ -61,7 +62,8 @@ pub fn solve_x(a: f64, b: f64, mut y: f64) {
         if is_not_one(a) {
             print!("{}", a)
         }
-        println!("x = {}", y)
+        println!("x = {}", y);
+        terminal_input.read_line();
     }
 
     //------//
@@ -71,6 +73,7 @@ pub fn solve_x(a: f64, b: f64, mut y: f64) {
         println!("x = {}", y);
         println!("    -------");
         println!("       {}", a);
+        terminal_input.read_line();
 
         y = y / a;
         drop(a);
