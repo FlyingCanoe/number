@@ -1,12 +1,29 @@
+use crossterm::*;
 
+pub fn solve(a: isize, b: isize, c: isize, terminal_input: &TerminalInput, terminal: &Terminal) {
+    terminal.clear(ClearType::All);
+    terminal.set_size(100, 30);
 
-pub fn solve(a: isize, b: isize, c: isize) {
+    println!("appuyer sur la touche enter pour passer à la prochaine étape de la résolution");
     println!("{}x^2+{}x+{} = y", a, b, c);
+    terminal_input.read_line();
+
+    println!("a = {}", a);
+    println!("b = {}", b);
+    println!("c = {}", c);
+    terminal_input.read_line();
+
     println!("mn  = ac");
     println!("m+n = b");
+    terminal_input.read_line();
+
+    println!("mn = {}*{}", a, c);
+    terminal_input.read_line();
+
     let mn = a * c;
     println!("mn  = {}", mn);
     println!("m+n = {}", b);
+    terminal_input.read_line();
 
     let mut m = 1;
     let mut n = 1;
@@ -19,52 +36,66 @@ pub fn solve(a: isize, b: isize, c: isize) {
         if i.0 + i.1 == b {
             n = i.0;
             m = i.1;
+            println!("note : la valeur de m et de n est réalisée par simple essais-erreurs il n'y a donc");
+            println!("     : aucune démarche à afficher à cette étape");
             println!("m = {}", m);
             println!("n = {}", n);
+            terminal_input.read_line();
             mn_trouver = true;
             break
         }
         else if i.0.wrapping_neg() + i.1 == b {
             n = i.0.wrapping_neg();
             m = i.1;
+            println!("note : la valeur de m et de n est réalisée par simple essais-erreurs il n'y a donc");
+            println!("     : aucune démarche à afficher à cette étape");
             println!("m = {}", m);
             println!("n = {}", n);
+            terminal_input.read_line();
             mn_trouver = true;
             break
         }
         else if i.0 + i.1.wrapping_neg() == b {
             n = i.0;
             m = i.1.wrapping_neg();
+            println!("note : la valeur de m et de n est réalisée par simple essais-erreurs il n'y a donc");
+            println!("     : aucune démarche à afficher à cette étape");
             println!("m = {}", m);
             println!("n = {}", n);
+            terminal_input.read_line();
             mn_trouver = true;
             break
         }
         else if i.0.wrapping_neg() + i.1.wrapping_neg() == b {
             n = i.0.wrapping_neg();
             m = i.1.wrapping_neg();
+            println!("note : la valeur de m et de n est réalisée par simple essais-erreurs il n'y a donc");
+            println!("     : aucune démarche à afficher à cette étape");
             println!("m = {}", m);
             println!("n = {}", n);
+            terminal_input.read_line();
             mn_trouver = true;
             break
         }
     }
     if mn_trouver == false {
-        println!("la résolution de ce trinombre est imposible");
+        println!("la résolution de ce trinombre est imposible, car aucune valeur de mn existe dans R");
+        terminal_input.read_line();
         return;
     }
-    println!("{}x^2+{}x+{}y+{} = y", a, m, n, c);
+    println!("{}x^2+{}x+{}x+{} = y", a, m, n, c);
+    terminal_input.read_line();
     let y1 = diviseur_comune(a, m);
     let y2 = diviseur_comune(n, c);
-    println!("n = {}", n);
-    println!("c = {}", c);
 
     let x1 = a/y1;
     let x2 = n/y2;
     let m1 = m/y1;
     let m2 = c/y2;
     println!("{}x({}x+{})+{}({}x+ {}) = 0", y1, x1, m1, y2, x2, m2 );
+    terminal_input.read_line();
     println!("({}x+{})({}x+{}) = 0", y1, y2, x1, m1);
+    terminal_input.read_line();
 }
 
 

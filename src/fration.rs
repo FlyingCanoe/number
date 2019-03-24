@@ -1,4 +1,4 @@
-/*
+
     use std::ops::Mul;
     use std::ops::Div;
     use std::ops::Add;
@@ -11,6 +11,14 @@
         pub denominateur: i64,
 
     }
+    impl Fration {
+        pub fn to_f64(&self) -> f64 {
+            return self.nominateur as f64/ self.nominateur as f64
+        }
+    }
+    /*pub fn to_fration(f64) -> Fration {
+
+    }*/
 
     fn diviseur(number: i64) -> Vec<i64> {
         let mut vec: Vec<i64> = vec!();
@@ -174,4 +182,4 @@
                 write!(f, "({}/{})", self.nominateur, self.denominateur)
             }
         }
-    }*/
+    }

@@ -7,7 +7,9 @@ pub fn solve_x(a: f64, b: f64, mut y: f64, terminal_cosmitque: &Terminal, termin
     //------//
     // on affiche l'éqution initale
     terminal_cosmitque.clear(ClearType::All);
-    terminal_cosmitque .set_size(60, 50);
+    terminal_cosmitque .set_size(80, 15);
+
+    println!("appuyer sur la touche enter pour passer à la prochaine étape de la résolution");
 
     //a est fait seulment partie de l'éqution, si il n'est pas égal a 1
     if is_not_one(a) {
