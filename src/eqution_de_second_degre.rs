@@ -1,11 +1,12 @@
 use crossterm::*;
+use std::ops::Neg;
 
 pub fn solve(a: isize, b: isize, c: isize, terminal_input: &TerminalInput, terminal: &Terminal) {
     terminal.clear(ClearType::All);
     terminal.set_size(100, 30);
 
     println!("appuyer sur la touche enter pour passer à la prochaine étape de la résolution");
-    println!("{}x^2+{}x+{} = y", a, b, c);
+    println!("{}x^2+{}x+{} = 0", a, b, c);
     terminal_input.read_line();
 
     println!("a = {}", a);
@@ -83,8 +84,9 @@ pub fn solve(a: isize, b: isize, c: isize, terminal_input: &TerminalInput, termi
         terminal_input.read_line();
         return;
     }
-    println!("{}x^2+{}x+{}x+{} = y", a, m, n, c);
+    println!("{}x^2+{}x+{}x+{} = 0", a, m, n, c);
     terminal_input.read_line();
+
     let y1 = diviseur_comune(a, m);
     let y2 = diviseur_comune(n, c);
 
@@ -92,9 +94,36 @@ pub fn solve(a: isize, b: isize, c: isize, terminal_input: &TerminalInput, termi
     let x2 = n/y2;
     let m1 = m/y1;
     let m2 = c/y2;
-    println!("{}x({}x+{})+{}({}x+ {}) = 0", y1, x1, m1, y2, x2, m2 );
+
+    if x1 < 0 && m1 < 0 {
+        print!("{}x({}x+{})",   y1.neg(), x1.neg(), m1.neg())
+    }
+    else {
+        print!("{}x({}x+{})", y1, x1, m1)
+    }
+
+    if x2 < 0 && m2 < 0 {
+        println!("-{}({}x+{}) = 0", y2, x2.neg(), m2.neg());
+    }
+    else {
+        println!("+{}({}x+{}) = 0", y2, x2, m2)
+    }
     terminal_input.read_line();
-    println!("({}x+{})({}x+{}) = 0", y1, y2, x1, m1);
+
+    if x1 < 0 && m1 < 0 {
+        print!("({}x", y1.neg())
+    }
+    else {
+        print!("({}x", y1)
+    }
+
+    if x2 < 0 && m2 < 0 {
+        print!("-{})", y2)
+    }
+    else {
+        print!("+{})", y2)
+    }
+    println!("({}x+{}) = 0", x1, m1);
     terminal_input.read_line();
 }
 
